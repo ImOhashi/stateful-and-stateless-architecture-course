@@ -1,1 +1,6 @@
-spring.application.name=stateless-any-api
+server:
+  port: ${PORT:8081}
+
+spring:
+  application:
+    name: stateless-any-api

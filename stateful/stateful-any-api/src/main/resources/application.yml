@@ -1,1 +1,6 @@
-spring.application.name=stateful-any-api
+server:
+  port: ${PORT:8083}
+
+spring:
+  application:
+    name: stateful-any-api
