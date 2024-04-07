@@ -1,4 +1,4 @@
-package com.ohashi.statefulauthapi.core.infra.exception;
+package com.ohashi.statefulauthapi.infra.exception;
 
 public record ExceptionDetails(int status, String message) {
 }
